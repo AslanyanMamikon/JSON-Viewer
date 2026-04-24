@@ -1,0 +1,40 @@
+# Qt build artifacts
+*.pro.user
+*.pro.user.*
+build/
+debug/
+release/
+Makefile
+Makefile.Debug
+Makefile.Release
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Qt generated
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.qm
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+.qtc_clangd/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
